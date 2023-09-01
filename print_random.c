@@ -3,6 +3,12 @@
 #include <time.h>
 
 
+char randchar(){
+	int max_num = 26;
+	int min_num = 0;
+    	char ranChar = rand()%(max_num - min_num) + 65;
+	return ranChar;
+}
 
 int main()
 {
